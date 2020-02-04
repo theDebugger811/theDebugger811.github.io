@@ -14,7 +14,7 @@ Updates
 -------
 
 | **Feb 2020** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Second version of 																																		[TrajNet++ Challenge](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) 													 for 2nd Workshop on [Long-Term Human Motion Prediction](https://motionpredictionicra2020.github.io) in 													ICRA 2020 is online. |
-| **Jan 2020**  	| Gave a talk on "Introducing TrajNet++: Large Scale Human Trajectory Forecasting Benchmark" at 															[Applied Machine Learning Days](https://appliedmldays.org"), 2020 at EPFL. |
+| **Jan 2020**  	| Gave a talk on "Introducing TrajNet++: Large Scale Human Trajectory Forecasting Benchmark" at 								[Applied Machine Learning Days](https://appliedmldays.org), 2020 at EPFL. |
 | **Nov 2019**     	| Won 2nd Prize for Best Poster at [EDEE Scientific Day](https://www.epfl.ch/education/phd/programs/edee-electrical-engineering) 					 	 for our work on Colaborative Sampling from Generative Advesarial Networks [[Poster]](http://theDebugger811.github.io/files/EDEE.pdf)|
 | **Nov 2019**     	| New [paper](https://arxiv.org/pdf/1902.00813.pdf) on collaborative sampling from generative advesarial networks is accepted to 					     [AAAI 2020](https://aaai.org/Conferences/AAAI-20/). [[Code]](https://github.com/vita-epfl/collaborative-gan-sampling)|
 | **Nov 2019**     	| Cleared the Candidacy Exam.|
@@ -23,6 +23,6 @@ Updates
 | **Jun 2019**     	| Our lab organized [Human-Robot Tandem Race](https://www.facebook.com/watch/?v=859118111133490) as part of the 										  [Deep Learning for Autonomous Vehicles](https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459) course at 					      EPFL. |
 | **Apr 2019**     	| New [paper](https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf) on Adversarial loss in human trajectory 						      prediction sampling accepted to [hEART](http://heart2019.bme.hu) 2019|
 | **Aug 2018**     	| Started my PhD in Electrical Engineering at EPFL |
-| **Aug 2018**     	| Graduated from IIT Bombay, with Institure Rank 7 |
+| **Aug 2018**     	| Graduated from IIT Bombay, with Institute Rank 7 |
 | **Jun 2018**     	| Secured 3rd position in the [iFood Challenge](https://www.kaggle.com/c/ifood2018/leaderboard) at CVPR 2018. 											 [[Code]](https://github.com/TheShadow29/Ifood-challenge-2018) |
 | **Apr 2018**     	| I will be joining VITA Lab as a PhD candidate, under supervision of Prof. Alexandre Alahi, in Fall 2018 | 
