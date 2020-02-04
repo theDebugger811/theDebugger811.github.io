@@ -13,19 +13,16 @@ I am Parth Kothari, a second year PhD working at the Visual Intelligence for Tra
 Updates
 -------
 
-<div style="height:250px;overflow:auto;">
-<table>
-<col width="100px" />
-<col width="650px" />
-<tr><td><b>Feb 2020:</b></td><td> Second version of <a href="https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge">TrajNet++ Challenge</a> for 2nd Workshop on <a href="https://motionpredictionicra2020.github.io"> Long-Term Human Motion Prediction</a> in ICRA 2020 is online.</td></tr>
-<tr><td><b>Jan 2020:</b></td><td> Gave a talk on "Introducing TrajNet++: Large Scale Human Trajectory Forecasting Benchmark" at <a href="https://appliedmldays.org"> Applied Machine Learning Days</a>, 2020 at EPFL.</td></tr>
-<tr><td><b>Nov 2020:</b></td><td> Won 2nd Prize for Best Poster at <a href="https://www.epfl.ch/education/phd/programs/edee-electrical-engineering/">EDEE Scientific Day</a> for our work on Colaborative Sampling from Generative Advesarial Networks <a href="">[Poster]</a>
-<tr><td><b>Nov 2020:</b></td><td> New <a href="https://arxiv.org/pdf/1902.00813.pdf">paper</a> on collaborative sampling from generative advesarial networks is accepted to <a href="https://aaai.org/Conferences/AAAI-20/"> AAAI 2020.</a> <a href="https://github.com/vita-epfl/collaborative-gan-sampling">[Code]</a>  
-<tr><td><b>Nov 2020:</b></td><td> Cleared my candidacy exam.</a>  
-<tr><td><b>Oct 2019:</b></td><td> First version of <a href="https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge">TrajNet++</a> for the Challenge Track of <a href="https://appliedmldays.org">Applied Machine Learning Days 2020</a> is online.
-<tr><td><b>Sep 2019:</b></td><td> Presented my paper on performance of <a href="https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf">Adversarial Loss in Human Trajectory Prediciton</a> at <a href="http://heart2019.bme.hu">hEART 2019</a>. </td></tr>
-<tr><td><b>June 2019:</b></td><td> Our lab organized <a href="https://www.facebook.com/watch/?v=859118111133490">Human-Robot Tandem Race</a> as part of the <a href="https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459">Deep Learning for Autonomous Vehicles</a> course. 
-<tr><td><b>April 2019:</b></td><td> New <a href="https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf">paper</a> on Adversarial loss in human trajectory prediction sampling accepted to <a href="http://heart2019.bme.hu">hEART 2019</a>
-<tr><td><b>Aug 2018:</b></td><td> Started my PhD in Electrical Engineering at EPFL</td></tr>
-<tr><td><b>Aug 2018:</b></td><td> Graduated from IIT Bombay, with Institure Rank 7</td></tr>
-</table></div>
+| **Feb 2020** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Second version of 																																		[TrajNet++ Challenge](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) 													 for 2nd Workshop on [Long-Term Human Motion Prediction](https://motionpredictionicra2020.github.io) in 													ICRA 2020 is online. |
+| **Jan 2020**  	| Gave a talk on "Introducing TrajNet++: Large Scale Human Trajectory Forecasting Benchmark" at 															[Applied Machine Learning Days](https://appliedmldays.org"), 2020 at EPFL. |
+| **Nov 2019**     	| Won 2nd Prize for Best Poster at [EDEE Scientific Day](https://www.epfl.ch/education/phd/programs/edee-electrical-engineering) 					 	 for our work on Colaborative Sampling from Generative Advesarial Networks [[Poster]](http://theDebugger811.github.io/files/EDEE.pdf)|
+| **Nov 2019**     	| New [paper](https://arxiv.org/pdf/1902.00813.pdf) on collaborative sampling from generative advesarial networks is accepted to 					     [AAAI 2020](https://aaai.org/Conferences/AAAI-20/). [[Code]](https://github.com/vita-epfl/collaborative-gan-sampling)|
+| **Nov 2019**     	| Cleared the Candidacy Exam.|
+| **Oct 2019**		| First version of [TrajNet++](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge), our large-scale 							 trajectory forecasting challenge for [Applied Machine Learning Days](https://appliedmldays.org) 2020 is online.|
+| **Sep 2019**     	| Presented my paper on performance of 																													 [Adversarial Loss in Human Trajectory Prediciton](https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf) at 							 [hEART](http://heart2019.bme.hu) 2019 |
+| **Jun 2019**     	| Our lab organized [Human-Robot Tandem Race](https://www.facebook.com/watch/?v=859118111133490) as part of the 										  [Deep Learning for Autonomous Vehicles](https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459) course at 					      EPFL. |
+| **Apr 2019**     	| New [paper](https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf) on Adversarial loss in human trajectory 						      prediction sampling accepted to [hEART](http://heart2019.bme.hu) 2019|
+| **Aug 2018**     	| Started my PhD in Electrical Engineering at EPFL |
+| **Aug 2018**     	| Graduated from IIT Bombay, with Institure Rank 7 |
+| **Jun 2018**     	| Secured 3rd position in the [iFood Challenge](https://www.kaggle.com/c/ifood2018/leaderboard) at CVPR 2018. 											 [[Code]](https://github.com/TheShadow29/Ifood-challenge-2018) |
+| **Apr 2018**     	| I will be joining VITA Lab as a PhD candidate, under supervision of Prof. Alexandre Alahi, in Fall 2018 | 
