@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Adversarial Loss in Human Trajectory Prediction"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/hEART2019
+excerpt: 'Autonomous vehicles need to accurately forecast future human trajectories in order to navigate safely and gain human trust. Capturing the subtle intricacies of human motion is a challenging task as human trajectories are multimodal i.e. given a past trajectory, multiple socially compliant future trajectories are possible. To this effect, various human trajectory prediction models have been proposed to capture not only the multimodality but also the unspoken social rules of mobility. The current best performing approach is based on Generative Adversarial Network (GAN) taking advantage of the success of Recurrent Neural Network (RNN) models in sequence prediction tasks. In this work, we highlight an unexpected pitfall in this state-of-the-art architecture via controlled experiments. We provide an explanation for this shortcoming and propose a modification to the given architecture leveraging the architectures used in the GAN community. Furthermore, we prove the efficacy of the proposed modification on synthetic data and real world datasets, thereby indicating room for improvement on state-of-the-art.'
+date: 2019-05-04
+venue: 'European Association for Research in Transportation (hEART)'
+paperurl: 'https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf'
+citation: 'Parth Kothari, Alexandre Alahi (2019). &quot;Adversarial Loss in Human Trajectory Prediction.&quot; <i>European Association for Research in Transportation (hEART)</i>.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Autonomous vehicles need to accurately forecast future human trajectories in order to navigate safely and gain human trust. Capturing the subtle intricacies of human motion is a challenging task as human trajectories are multimodal i.e. given a past trajectory, multiple socially compliant future trajectories are possible. To this effect, various human trajectory prediction models have been proposed to capture not only the multimodality but also the unspoken social rules of mobility. The current best performing approach is based on Generative Adversarial Network (GAN) taking advantage of the success of Recurrent Neural Network (RNN) models in sequence prediction tasks. In this work, we highlight an unexpected pitfall in this state-of-the-art architecture via controlled experiments. We provide an explanation for this shortcoming and propose a modification to the given architecture leveraging the architectures used in the GAN community. Furthermore, we prove the efficacy of the proposed modification on synthetic data and real world datasets, thereby indicating room for improvement on state-of-the-art.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://transp-or.epfl.ch/heart/2019/abstracts/hEART_2019_paper_148.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: 'Parth Kothari, Alexandre Alahi (2019). &quot;Adversarial Loss in Human Trajectory Prediction.&quot; <i>European Association for Research in Transportation (hEART)</i>.'
