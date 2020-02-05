@@ -3,8 +3,8 @@ title: "Collaborative Sampling in Generative Adversarial Networks"
 collection: publications
 permalink: /publication/CSGAN
 excerpt: 'Developed a collaborative sampling scheme between the generator and the discriminator for improved data generation during sampling. Proposed a practical discriminator shaping method for effective sample refinement. Experiments on synthetic and image datasets demonstrate the efficacy of our method to improve generated samples both quantitatively and qualitatively, offering a new degree of freedom in GAN sampling.'
-date: 2019-11-10
-venue: 'Association for Advancement of Artificial Intelligence (AAAI) 2020'
+date: 2020-01-01
+venue: 'Association for Advancement of Artificial Intelligence (AAAI)'
 paperurl: 'https://arxiv.org/pdf/1902.00813.pdf'
 citation: 'Liu, Yuejiang, Parth Kothari and Alexandre Alahi. “Collaborative Sampling in Generative Adversarial Networks.” <i>Association for Advancement of Artificial Intelligence (AAAI) 2020</i>.'
 ---

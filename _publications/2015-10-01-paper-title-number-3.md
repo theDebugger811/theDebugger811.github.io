@@ -4,7 +4,7 @@ collection: publications
 permalink: 
 excerpt: 'Current forecasting methods have been evaluated on different subsets of the available data without proper indexing of trajectories making it difficult to objectively compare the techniques. Our benchmark provides defined categorization of trajectories as well as a unified extensive evaluation system to test the gathered methods for a fair comparison.'
 date: 2020-02-02
-venue: ''
+venue: '2nd Workshop on Long-Term Human Motion Prediction, ICRA'
 paperurl: ''
 citation: 'Preprint Out Soon!'
 ---
