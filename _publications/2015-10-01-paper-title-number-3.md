@@ -1,15 +1,19 @@
 ---
-title: "Paper Title Number 3"
+title: "TrajNet++: Large-scale Trajectory Forecasting Benchmark"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: 
+excerpt: 'Current forecasting methods have been evaluated on different subsets of the available data without proper indexing of trajectories making it difficult to objectively compare the techniques. Our benchmark provides defined categorization of trajectories as well as a unified extensive evaluation system to test the gathered methods for a fair comparison.'
+date: 2020-02-02
+venue: ''
+paperurl: ''
+citation: 'Preprint Out Soon!'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+In order to ensure safety while navigating through crowded scenarios, autonomous vehicles (AVs) need to understand the social etiquette of human motion, like collision avoidance and yielding right-of-way. A closely related task to understanding how humans navigate is human trajectory prediction given the past observations of humans in a social setting, predict the future evolution of the scene which conforms to the social norms. Many works in literature propose models with this objective of equipping the AVs with the ability to predict future scenes. In this work, we revisit forecasting models and focus on designing a framework TrajNet++ to objectively compare the performance of these models, a significant yet missing component in the field of human trajectory prediction. A successful objective analysis requires a well-defined dataset and rigorous evaluation. To this extent, we define a hierarchy of trajectory categorization to better understand the trajectory distribution in a dataset and subsequently motivate novel evaluation metrics to overcome the limitations of the current ones. Using our framework, through extensive experimentation on synthetic and real world datasets, we garner insights regarding model performances thereby opening avenues for further research. 
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+**Challenge Page**
+[Challenge Page](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+**Helper Codes**
+[Trajnet++ Tools](https://github.com/vita-epfl/trajnetplusplustools)
+[Trajnet++ Dataset](https://github.com/vita-epfl/trajnetplusplusdataset)
+[Trajnet++ Baselines](https://github.com/vita-epfl/trajnetplusplusbaselines)
