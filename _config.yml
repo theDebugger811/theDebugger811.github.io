@@ -85,7 +85,7 @@ author:
   bio              : "Current: Second Year PhD Student at VITA Lab, EPFL. Previously: Electrical Undergraduate at Indian Institute of Technology Bombay (IITB)"
   location         : "Lausanne (Switzerland)"
   employer         :
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.co.in/citations?user=Ofd4jVAAAAAJ"
   email            : "parth.kothari@epfl.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "linkedin.com/in/parth-kothari-a56530166"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
