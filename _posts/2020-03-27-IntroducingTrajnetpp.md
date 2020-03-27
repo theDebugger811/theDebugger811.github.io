@@ -1,5 +1,5 @@
 ---
-title: 'Introdcuing TrajNet++ : A Framework for Human Trajectory Prediction'
+title: 'Introducing TrajNet++ : A Framework for Human Trajectory Prediction'
 date: 2020-03-27
 permalink: /posts/2020/03/intro_trajnetpp/
 tags:
