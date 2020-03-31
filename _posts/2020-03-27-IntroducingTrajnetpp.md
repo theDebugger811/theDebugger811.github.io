@@ -8,12 +8,12 @@ tags:
   - social intelligence
 ---
 
-In this blog post, I provide a kickstart guide to our recently released TrajNet++ framework for human trajectory prediction. We recently released TrajNet++ Challenge for doing agent-agent based trajectory prediction as part of [ICRA workshop on Long Term Human Motion Perediction](https://motionpredictionicra2020.github.io). Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning models human motion prediction.
+In this blog post, I provide a kickstarter guide to our recently released TrajNet++ framework for human trajectory prediction. We recently released TrajNet++ Challenge for agent-agent based trajectory prediction as part of [ICRA workshop on Long Term Human Motion Perediction](https://motionpredictionicra2020.github.io). Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning human motion prediction models.
 
 Overview
 ========
 
-On a high-level, Trajnet++ constitutes of four primary components:
+On a high-level, Trajnet++ constitutes four primary components:
 
 1. [Trajnetplusplustools](https://github.com/vita-epfl/trajnetplusplustools): This repository provides helper functions for trajectory prediction. For instance: trajectory categorization, evaluation metrics, prediction visualization. 
 
@@ -172,4 +172,4 @@ To know more about how the evaluation procedure works, please refer to this [REA
 Done Done
 =========
 
-I hope this blog provides you with the necessary kick-start of using TrajNet++. If you have any questions, feel free to post issues on [Github](https://github.com/vita-epfl/trajnetplusplusbaselines). If you liked using TrajNet++, a token of appreciation to parth.kothari@epfl.ch would really go a long way for me ! :)
+I hope this blog provides you with the necessary kickstart for using TrajNet++. If you have any questions, feel free to post issues on [Github](https://github.com/vita-epfl/trajnetplusplusbaselines). If you liked using TrajNet++, a token of appreciation to parth.kothari@epfl.ch would really go a long way for me ! :)
