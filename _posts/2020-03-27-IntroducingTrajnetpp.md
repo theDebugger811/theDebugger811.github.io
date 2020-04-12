@@ -82,7 +82,7 @@ We also download the Social Force simulator available at [this repository](https
 
 ```python
 ## Download Repository
-https://github.com/svenkreiss/socialforce/archive/master.zip
+wget https://github.com/svenkreiss/socialforce/archive/master.zip
 unzip master.zip
 rm master.zip
 
@@ -131,6 +131,9 @@ python -m trajnettools.dataset_stats output/train/*.ndjson
 
 ## visualize sample scenes
 python -m trajnettools.trajectories output/train/*.ndjson --random
+
+## visualize interactions (Default: Collision Avoidance)
+python -m trajnettools.visualize_type output/train/*.ndjson
 ```
 
 Finally, move the converted data to the trajnetbaselines folder.
