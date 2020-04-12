@@ -8,12 +8,12 @@ tags:
   - social intelligence
 ---
 
-In this blog post, I provide a kickstart guide to our recently released TrajNet++ framework for human trajectory prediction. We recently released TrajNet++ Challenge for doing agent-agent based trajectory prediction as part of [ICRA workshop on Long Term Human Motion Perediction](https://motionpredictionicra2020.github.io). Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning models human motion prediction.
+In this blog post, I provide a kickstarter guide to our recently released TrajNet++ framework for human trajectory prediction. We recently released TrajNet++ Challenge for agent-agent based trajectory prediction as part of [ICRA workshop on Long Term Human Motion Prediction](https://motionpredictionicra2020.github.io). Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning human motion prediction models.
 
 Overview
 ========
 
-On a high-level, Trajnet++ constitutes of four primary components:
+On a high-level, Trajnet++ constitutes four primary components:
 
 1. [Trajnetplusplustools](https://github.com/vita-epfl/trajnetplusplustools): This repository provides helper functions for trajectory prediction. For instance: trajectory categorization, evaluation metrics, prediction visualization. 
 
@@ -62,7 +62,7 @@ Dataset Preparation
 -------------------
 
 [Trajnetplusplusdataset](https://github.com/vita-epfl/trajnetplusplusdataset) helps in creating the dataset splits to train and test our prediction models. In this example, we will be using the ORCA simulator for generating our synthetic data. 
-Therefore, we will setup the simulator with the help of this [wonderful repo](https://github.com/sybrenstuvel/Python-RVO2)
+Therefore, we will setup the simulator with the help of this [wonderful repo](https://github.com/sybrenstuvel/Python-RVO2).
 
 ```python
 ## Download Repository
@@ -105,9 +105,9 @@ python -m trajnetdataset.controlled_data --help
 
 By default, the generated trajectories will be stored in _'orca\_circle\_crossing\_6ped\_.txt'_. Procedure for extracting publicly available datasets can be found [here](https://github.com/vita-epfl/trajnetplusplusdataset/blob/master/README.rst)
 
-We will now convert the generated '.txt' file into the TrajNet++ data structure format. Moreover, we will choose to select only interacting scenes (Type III) from our generated trajectories. More details regarding our data format and trajectory categorization can be found on our [challenge overview page](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)
+We will now convert the generated '.txt' file into the TrajNet++ data structure format. Moreover, we will choose to select only interacting scenes (Type III) from our generated trajectories. More details regarding our data format and trajectory categorization can be found on our [challenge overview page](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge).
 
-For conversion, open the _trajnetdataset/convert.py_, comment the real dataset conversion part in main() and uncomment the below given snippet
+For conversion, open the _trajnetdataset/convert.py_, comment the real dataset conversion part in main() and uncomment the below given snippet.
 ```python
 ## Comment the real dataset conversion part in main()
 
@@ -123,7 +123,7 @@ python -m trajnetdataset.convert --linear_threshold 0.3 --acceptance 0 0 1.0 0
 python -m trajnetdataset.convert --help
 ```
 
-Once the conversion process completes, your converted datasets will be available in the _output_ folder. Trajnetplusplustools provides the following utilities to understand your dataset better. To visualize trajectories in terminal in MacOS, I use [itermplot](https://github.com/daleroberts/itermplot)
+Once the conversion process completes, your converted datasets will be available in the _output_ folder. Trajnetplusplustools provides the following utilities to understand your dataset better. To visualize trajectories in terminal in MacOS, I use [itermplot](https://github.com/daleroberts/itermplot).
 
 ```python
 ## obtain new dataset statistics
@@ -161,7 +161,7 @@ python -m trajnetbaselines.lstm.trainer --help
 Evaluating Models
 -----------------
 
-One strength of TrajNet++ is its extensive evaluation system. You can read more about it in the [metrics section here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge)
+One strength of TrajNet++ is its extensive evaluation system. You can read more about it in the [metrics section here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge).
 
 To perform extensive evaluation of your trained model. The results are saved in Results.png 
 ```python
@@ -170,9 +170,9 @@ python -m evaluator.trajnet_evaluator --data synth_data --output OUTPUT_BLOCK/sy
 ## To know more options about evaluator 
 python -m evaluator.trajnet_evaluator --help
 ```
-To know more about how the evaluation procedure works, please refer to this [README](https://github.com/vita-epfl/trajnetplusplusbaselines/blob/master/evaluator/README.rst)
+To know more about how the evaluation procedure works, please refer to this [README](https://github.com/vita-epfl/trajnetplusplusbaselines/blob/master/evaluator/README.rst).
 
 Done Done
 =========
 
-I hope this blog provides you with the necessary kick-start of using TrajNet++. If you have any questions, feel free to post issues on [Github](https://github.com/vita-epfl/trajnetplusplusbaselines). If you liked using TrajNet++, a token of appreciation to parth.kothari@epfl.ch would really go a long way for me ! :)
+I hope this blog provides you with the necessary kickstart for using TrajNet++. If you have any questions, feel free to post issues on [Github](https://github.com/vita-epfl/trajnetplusplusbaselines). If you liked using TrajNet++, a token of appreciation to parth.kothari@epfl.ch would really go a long way for me ! :)
