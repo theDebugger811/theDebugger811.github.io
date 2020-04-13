@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.com/theDebugger811/theDebugger811githubio.svg)](http://hits.dwyl.com/theDebugger811/theDebugger811githubio)
+![version](https://img.shields.io/badge/version-0.0.1-ff69b4.svg) ![LastUpdated](https://img.shields.io/badge/LastUpdated-2019.11.13-lightgrey.svg) ![topic](https://img.shields.io/badge/topic-trajectory--prediction-brightgreen.svg?logo=github) [![HitCount](http://hits.dwyl.com/theDebugger811/theDebugger811githubio.svg)](http://hits.dwyl.com/theDebugger811/theDebugger811githubio)
 
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
