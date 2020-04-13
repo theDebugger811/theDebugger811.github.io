@@ -34,7 +34,7 @@ Setting Up Repositories
 
 The first step is to setup the repositories, namely Trajnetplusplusdata for dataset generation and Trajnetplusplusbaselines for model training. Next, we setup the virtual environment and download the requirements. 
 
-```python
+```bash
 ## Create directory to setup Trajnet++
 mkdir trajnet++
 cd trajnet++ 
