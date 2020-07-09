@@ -34,7 +34,7 @@ Setting Up Repositories
 
 The first step is to setup the repositories, namely Trajnetplusplusdata for dataset generation and Trajnetplusplusbaselines for model training. Next, we setup the virtual environment and download the requirements. 
 
-```python
+```bash
 ## Create directory to setup Trajnet++
 mkdir trajnet++
 cd trajnet++ 
@@ -64,7 +64,7 @@ Dataset Preparation
 [Trajnetplusplusdataset](https://github.com/vita-epfl/trajnetplusplusdataset) helps in creating the dataset splits to train and test our prediction models. In this example, we will be using the ORCA simulator for generating our synthetic data. 
 Therefore, we will setup the simulator with the help of this [wonderful repo](https://github.com/sybrenstuvel/Python-RVO2).
 
-```python
+```bash
 ## Download Repository
 wget https://github.com/sybrenstuvel/Python-RVO2/archive/master.zip
 unzip master.zip
@@ -81,7 +81,7 @@ cd ../
 
 We also download the Social Force simulator available at [this repository](https://github.com/svenkreiss/socialforce). 
 
-```python
+```bash
 ## Download Repository
 wget https://github.com/svenkreiss/socialforce/archive/master.zip
 unzip master.zip
@@ -139,7 +139,7 @@ python -m trajnetplusplustools.visualize_type output/train/*.ndjson
 ```
 
 Finally, move the converted data to the trajnetbaselines folder.
-```python
+```bash
 mv output ../trajnetplusplusbaselines/DATA_BLOCK/synth_data
 cd ../trajnetplusplusbaselines/
 ```
