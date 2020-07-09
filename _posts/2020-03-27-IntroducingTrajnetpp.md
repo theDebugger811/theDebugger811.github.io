@@ -72,6 +72,7 @@ rm master.zip
 
 ## Setting up ORCA (steps provided in the Python-RVO2 repo)
 cd Python-RVO2-master/
+pip install cmake
 pip install cython
 python setup.py build
 python setup.py install
@@ -127,13 +128,14 @@ Once the conversion process completes, your converted datasets will be available
 
 ```python
 ## obtain new dataset statistics
-python -m trajnettools.dataset_stats output/train/*.ndjson
+python -m trajnetplusplustools.dataset_stats output/train/*.ndjson
 
 ## visualize sample scenes
-python -m trajnettools.trajectories output/train/*.ndjson --random
+python -m trajnetplusplustools.trajectories output/train/*.ndjson --random
 
 ## visualize interactions (Default: Collision Avoidance)
-python -m trajnettools.visualize_type output/train/*.ndjson
+mkdir interactions
+python -m trajnetplusplustools.visualize_type output/train/*.ndjson
 ```
 
 Finally, move the converted data to the trajnetbaselines folder.
@@ -165,7 +167,7 @@ One strength of TrajNet++ is its extensive evaluation system. You can read more 
 
 To perform extensive evaluation of your trained model. The results are saved in Results.png 
 ```python
-python -m evaluator.trajnet_evaluator --data synth_data --output OUTPUT_BLOCK/synth_data/vanilla.pkl
+python -m evaluator.trajnet_evaluator --path synth_data --output OUTPUT_BLOCK/synth_data/vanilla.pkl
 
 ## To know more options about evaluator 
 python -m evaluator.trajnet_evaluator --help
