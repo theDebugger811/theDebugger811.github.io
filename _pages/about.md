@@ -13,12 +13,9 @@ I am Parth Kothari, a second year PhD working at the Visual Intelligence for Tra
 Updates
 -------
 
-| **July 2020**  &nbsp; &nbsp; &nbsp; | New [paper](https://arxiv.org/pdf/2007.03639.pdf) providing an in-depth analysis of interaction modules for capturing social interactions in crowds! [Code](https://github.com/vita-epfl/trajnetplusplusbaselines) |
-| **June 2020** | Gave a virtual talk on TrajNet++ at 2nd Workshop on                                                    
-[Long Term Human Motion Prediction](https://motionpredictionicra2020.github.io), ICRA 2020. Video available 
-[here](https://www.youtube.com/watch?v=pIgLJm2V5aE&list=PLrLNIllEiqRAb-eDahuDJunDSC7lP2V78&index=9) |
-| **Apr 2020**  	| Started maintaining a list of papers focussed on human trajectory forecasting in crowds. 
-[Link](https://github.com/theDebugger811/human-trajectory-forecasting-papers) |
+| **July 2020**	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	| New [paper](https://arxiv.org/pdf/2007.03639.pdf) providing an in-depth analysis of interaction modules for capturing social interactions in crowds! [Code](https://github.com/vita-epfl/trajnetplusplusbaselines) |
+| **Jun 2020**     | Gave a virtual talk on TrajNet++ at 2nd Workshop on 													 [Long Term Human Motion Prediction](https://motionpredictionicra2020.github.io), ICRA 2020. Video available [here](https://www.youtube.com/watch?v=pIgLJm2V5aE&list=PLrLNIllEiqRAb-eDahuDJunDSC7lP2V78&index=9) |
+| **Apr 2020**  	| Started maintaining a list of papers focussed on human trajectory forecasting in crowds. [Link](https://github.com/theDebugger811/human-trajectory-forecasting-papers) |
 | **Feb 2020** | Second version of [TrajNet++ Challenge](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) for 2nd Workshop on [Long-Term Human Motion Prediction](https://motionpredictionicra2020.github.io) in ICRA 2020 is online. |
 | **Jan 2020**  	| Gave a talk on "Introducing TrajNet++: Large Scale Human Trajectory Forecasting Benchmark" at 								[Applied Machine Learning Days](https://appliedmldays.org), 2020 at EPFL. |
 | **Nov 2019**     	| Won 2nd Prize for Best Poster at [EDEE Scientific Day](https://www.epfl.ch/education/phd/programs/edee-electrical-engineering) 					 	 for our work on Colaborative Sampling from Generative Adversarial Networks [[Poster]](http://theDebugger811.github.io/files/EDEE.pdf)|
