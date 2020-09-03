@@ -1,5 +1,5 @@
 ---
-title: 'Introducing TrajNet++ : A Framework for Human Trajectory Prediction'
+title: 'Introducing TrajNet++ : A Framework for Human Trajectory Forecasting'
 date: 2020-03-27
 permalink: /posts/2020/03/intro_trajnetpp/
 tags:
@@ -8,7 +8,7 @@ tags:
   - social intelligence
 ---
 
-In this blog post, I provide a kickstarter guide to our recently released TrajNet++ framework for human trajectory prediction. We recently released TrajNet++ Challenge for agent-agent based trajectory prediction as part of [ICRA workshop on Long Term Human Motion Prediction](https://motionpredictionicra2020.github.io). Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning human motion prediction models.
+In this blog post, I provide a kickstarter guide to our recently released TrajNet++ framework for human trajectory forecasting. We recently released TrajNet++ Challenge for agent-agent based trajectory forecasting. Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning human motion forecasting models.
 
 Overview
 ========
@@ -93,32 +93,26 @@ pip install -e .
 cd ../
 ```
 
-Now, we will generate controlled data using the ORCA simulator. We will generate 100 scenarios of 6 pedestrains in a circle_crossing (default) setting.
+Now, we will generate controlled data using the ORCA simulator. We will generate 1000 scenarios of 5 pedestrains moving in an interactive setting.
 
 ```python
 ## Destination to store generated trajectories
 mkdir -p data/raw/controlled
-python -m trajnetdataset.controlled_data --simulator 'orca' --num_ped 10 --num_scenes 100
+python -m trajnetdataset.controlled_data --simulator 'orca' --num_ped 5 --num_scenes 1000
 
 ## To know more options of generating controlled data
 python -m trajnetdataset.controlled_data --help
 ```
 
-By default, the generated trajectories will be stored in _'orca\_circle\_crossing\_6ped\_.txt'_. Procedure for extracting publicly available datasets can be found [here](https://github.com/vita-epfl/trajnetplusplusdataset/blob/master/README.rst)
+By default, the generated trajectories will be stored in _'orca\_circle\_crossing\_5ped\_1000scenes\_.txt'_. Procedure for extracting publicly available datasets can be found [here](https://github.com/vita-epfl/trajnetplusplusdataset/blob/master/README.rst). Also, the goals of the generated trajectories are stored in the _'goal_files'_ folder under the same name as the .txt file.
 
 We will now convert the generated '.txt' file into the TrajNet++ data structure format. Moreover, we will choose to select only interacting scenes (Type III) from our generated trajectories. More details regarding our data format and trajectory categorization can be found on our [challenge overview page](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge).
 
 For conversion, open the _trajnetdataset/convert.py_, comment the real dataset conversion part in main() and uncomment the below given snippet.
+
 ```python
-## Comment the real dataset conversion part in main()
-
-## Uncomment the following snippet
-write(controlled(sc, 'data/raw/controlled/orca_circle_crossing_6ped_.txt'),
-      'output_pre/{split}/orca_circle_crossing_6ped.ndjson', args)
-categorize(sc, 'output_pre/{split}/orca_circle_crossing_6ped.ndjson', args)
-
 ## Run the conversion
-python -m trajnetdataset.convert --linear_threshold 0.3 --acceptance 0 0 1.0 0
+python -m trajnetdataset.convert --linear_threshold 0.3 --acceptance 0 0 1.0 0 --synthetic
 
 ## To know more options of converting data
 python -m trajnetdataset.convert --help
@@ -138,12 +132,14 @@ mkdir interactions
 python -m trajnetplusplustools.visualize_type output/train/*.ndjson
 ```
 
-Finally, move the converted data to the trajnetbaselines folder.
+Finally, move the converted data and goal files (if necessary) to the trajnetbaselines folder.
+
 ```bash
 mv output ../trajnetplusplusbaselines/DATA_BLOCK/synth_data
+mv goal_files/ ../trajnetplusplusbaselines/
 cd ../trajnetplusplusbaselines/
 ```
-Now that the dataset is prepared, its time to train the model! :)
+Now that the dataset is ready, its time to train the model! :)
 
 Training Models
 ---------------
@@ -167,7 +163,7 @@ One strength of TrajNet++ is its extensive evaluation system. You can read more 
 
 To perform extensive evaluation of your trained model. The results are saved in Results.png 
 ```python
-python -m evaluator.trajnet_evaluator --path synth_data --output OUTPUT_BLOCK/synth_data/vanilla.pkl
+python -m evaluator.trajnet_evaluator --path synth_data --output OUTPUT_BLOCK/synth_data/lstm_vanilla_None.pkl
 
 ## To know more options about evaluator 
 python -m evaluator.trajnet_evaluator --help
