@@ -151,10 +151,16 @@ python -m trajnetbaselines.lstm.trainer --path synth_data
 ```
 .... and your LSTM model starts training. Your model will be saved in the _synth\_data_ folder within _OUTPUT\_BLOCK_. Currently, models are being saved according to the type of interaction models being used.
 
+In order to train using interaction modules (eg. nearest-neighour encoding) utilizing goal information, run
+```python
+python -m trajnetbaselines.lstm.trainer --path synth_data --type 'nn' --goals
+```
+
 ```python
 ## To know more options about trainer 
 python -m trajnetbaselines.lstm.trainer --help
 ```
+
 
 Evaluating Models
 -----------------
@@ -169,6 +175,21 @@ python -m evaluator.trajnet_evaluator --path synth_data --output OUTPUT_BLOCK/sy
 python -m evaluator.trajnet_evaluator --help
 ```
 To know more about how the evaluation procedure works, please refer to this [README](https://github.com/vita-epfl/trajnetplusplusbaselines/blob/master/evaluator/README.rst).
+
+
+Visualize Models
+----------------
+
+Visualize learning curves of two different models
+```python
+python -m trajnetbaselines.lstm.plot_log OUTPUT_BLOCK/synth_data/lstm_vanilla_None.pkl.log OUTPUT_BLOCK/synth_data/lstm_goals_nn_None.pkl.log
+```
+
+Visualize predictions of models
+```python
+# python -m evaluator.visualize_predictions <ground_truth_file> <prediction_file>
+python -m evaluator.visualize_predictions DATA_BLOCK/synth_data/test_private/orca_five_synth.ndjson DATA_BLOCK/synth_data/test_pred/lstm_vanilla_None_modes1/orca_five_synth.ndjson --n 10 --random
+```
 
 Done Done
 =========
