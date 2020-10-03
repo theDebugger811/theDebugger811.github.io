@@ -58,7 +58,7 @@ def standard(line):
                     float(line[3]))
 ```
 
-Code snippet already provided in [readers.py]((https://github.com/vita-epfl/trajnetplusplusdataset/blob/eth/trajnetdataset/readers.py)
+Code snippet already provided in [readers.py](https://github.com/vita-epfl/trajnetplusplusdataset/blob/eth/trajnetdataset/readers.py)
 
 Dataset Generation and Categorization
 -------------------------------------
