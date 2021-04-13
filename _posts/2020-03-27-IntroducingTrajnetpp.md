@@ -83,12 +83,12 @@ We also download the Social Force simulator available at [this repository](https
 
 ```bash
 ## Download Repository
-wget https://github.com/svenkreiss/socialforce/archive/master.zip
-unzip master.zip
-rm master.zip
+wget https://github.com/svenkreiss/socialforce/archive/refs/heads/main.zip
+unzip main.zip
+rm main.zip
 
 ## Setting up Social Force
-cd socialforce-master/
+cd socialforce-main/
 pip install -e .
 cd ../
 ```
