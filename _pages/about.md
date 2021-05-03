@@ -19,7 +19,7 @@ I am Parth Kothari, a second year PhD working at the Visual Intelligence for Tra
 <col width="100px">
 <col width="650px">
 
-<tr><td><b>Apr 2021:</b></td><td> gave guest lectures on <a href="https://tube.switch.ch/videos/G2txflHB4t">modelling social interactions</a> and outputting multimodal distributions for human trajectory forecasting for the <a href="https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459">Deep Learning for Autonomous Vehicles</a> course. </td></tr>
+<tr><td><b>Apr 2021:</b></td><td> gave guest lectures on <a href="https://tube.switch.ch/videos/G2txflHB4t">modelling social interactions</a> and <a href="https://tube.switch.ch/videos/py9mqGEqTv">modelling multimodal distributions</a> for human trajectory forecasting for the <a href="https://edu.epfl.ch/coursebook/fr/deep-learning-for-autonomous-vehicles-CIVIL-459">Deep Learning for Autonomous Vehicles</a> course. </td></tr>
 
 <tr><td><b>Mar 2021:</b></td><td> new paper on interpretable anchor-based method for human trajectory forecasting in crowds accepted to CVPR 2021. More details soon!</td></tr>
 

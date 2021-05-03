@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Parth Kothari Home Page"
 title_separator          : "-"
 name                     : &name "Parth Kothari"
-description              : &description "Second Year PhD Student"
+description              : &description "Third Year PhD Student"
 url                      : https://theDebugger811.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "theDebugger811/theDebugger811.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Parth Kothari"
   avatar           : "profile.png"
-  bio              : "Current: Second Year PhD Student at VITA Lab, EPFL. Previously: Electrical Undergraduate at Indian Institute of Technology Bombay (IITB)"
+  bio              : "Current: Third Year PhD Student at VITA Lab, EPFL. Previously: Electrical Undergraduate at Indian Institute of Technology Bombay (IITB)"
   location         : "Lausanne (Switzerland)"
   employer         :
   pubmed           : 
