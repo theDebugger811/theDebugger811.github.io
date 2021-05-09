@@ -253,7 +253,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
               <tr>
                   <td width=1200px>
                     <center>
-                        <img src = "system_figure4.png" height="540px"></img><br>
+                        <img src = "system_figure4.png" height="340px"></img><br>
                   </center>
                   <br>
                   <span style="font-size:18px"> At each time-step, the output space of each pedestrian is discretized into a set of possible future intents, normalized with respect to the pedestrian's speed and direction, forming a radial grid. Discrete choice modelling (DCM) is used to predict the next step probability distribution (green high, red low) in an interpretable manner by accumulating the \textit{keep direction, leader-follower, collision avoidance} and \textit{occupancy} rules. A neural network refines the predicted anchor distribution with scene-specific residuals that account for the subtle interactions that the DCM rules fail to model. The neural network also provides the past motion embedding and interactions embedding which can be added to the hand-crafted DCM functions to better handle complex social interactions and long term dependencies while choosing the future intents.
