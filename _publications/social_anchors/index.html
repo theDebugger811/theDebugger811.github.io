@@ -130,16 +130,16 @@
       <table align=center width=800px>
 
      <tr>
-       <span style="font-size:22px"><a href="https://thedebugger811.github.io/">Parth Kothari</a></span><sup>1</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px">Brian Sifringer</span><sup>1</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px">Alexandre Alahi</span><sup>1</sup>,&nbsp;&nbsp;
+       <span style="font-size:22px"><a href="https://thedebugger811.github.io/">Parth Kothari</a></span>,&nbsp;&nbsp;
+      <span style="font-size:22px">Brian Sifringer</span>,&nbsp;&nbsp;
+      <span style="font-size:22px">Alexandre Alahi</span>,&nbsp;&nbsp;
    </tr>
 
 
      <tr>
        <td align=center colspan="2" style="font-size:22px">
        <center>
-       <sup>1</sup>VITA Lab, EPFL
+       VITA Lab, EPFL
        </center>
        </td>
       </tr>
@@ -168,9 +168,8 @@
               <br>
               <br>
               <br>
-              <center><h1>Overview Video</h1></center>
-              <iframe width="900" height="660" src="https://www.youtube.com/embed/XCWCHwGlBgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- [hosted on <a href="#">arXiv</a>]</a> -->
+              <!--<center><h1>Overview Video</h1></center>
+              <iframe width="900" height="660" src="https://www.youtube.com/embed/XCWCHwGlBgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
               </td>
         </tr>
       </table>
@@ -228,7 +227,7 @@
 
 
           <hr>
-          <center><h1>Key Ideas</h1></center>
+          <center><h1>Key Idea</h1></center>
           <table align=center width=600px>
               <tr>
                   <td width=700px>
@@ -248,7 +247,27 @@ We posit that pedestrians in the scene move towards a predetermined position and
                 </td>
               </tr>
           </table>
+        <hr>
+          <center><h1>Method Overview</h1></center>
+          <table align=center width=600px>
+              <tr>
+                  <td width=700px>
+                    <center>
+                        <img src = "system_figure4.png" height="500px"></img><br>
+                  </center>
+                  <br>
+                  <span style="font-size:18px"> At each time-step, the output space of each pedestrian is discretized into a set of possible future intents, normalized with respect to the pedestrian's speed and direction, forming a radial grid. Discrete choice modelling (DCM) is used to predict the next step probability distribution (green high, red low) in an interpretable manner by accumulating the \textit{keep direction, leader-follower, collision avoidance} and \textit{occupancy} rules. A neural network refines the predicted anchor distribution with scene-specific residuals that account for the subtle interactions that the DCM rules fail to model. The neural network also provides the past motion embedding and interactions embedding which can be added to the hand-crafted DCM functions to better handle complex social interactions and long term dependencies while choosing the future intents.
+                      </td>
+              </tr>
+<!-- 
+We posit that pedestrians in the scene move towards a predetermined position and interactions such as social cues happen as they go along achieving this intention without changing the predilection while still shaping their trajectories locally. 
+               -->
+              <tr>
+                <td colspan="3"> <br>
 
+                </td>
+              </tr>
+          </table>
 
         <hr>
          <!-- <table align=center width=550px> -->
@@ -276,7 +295,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
                     <tr>
                         <td width=600px colspan="3">
                                             <br>
-                              <span style="font-size:18px"> Qualitative illustration of the ability of our architecture to output high-level interpretable intents. The direction of motion of the pedestrian of interest is normalized and is facing towards the right. Current neighbour positions are shown in blue and current velocities are shown in green. The ground-truth choice is highlighted in light green. (a) In the first row, the decision of the network is strongly influenced by the collision-avoidance and occupancy map of the DCM.  Consequently, the pedestrian changes the direction of motion and turns left maintaining constant speed. (b) In the second row, the leader-follower map exerts a strong influence on the final decision-making causing the model to choose the anchor corresponding to slowing-down. (c) In the third row, the leader-follower map is not strong in intensity and the neural network map guides the decision making resulting in the model maintaining constant speed.
+                              <span style="font-size:18px"> Qualitative illustration of the ability of our architecture to output high-level interpretable intents. The direction of motion of the pedestrian of interest is normalized and is facing towards the right. Current neighbour positions are shown in blue and current velocities are shown in green. The ground-truth choice is highlighted in light green. (a) In the first row, the decision of the network is strongly influenced by the collision-avoidance and occupancy map of the DCM.  Consequently, the pedestrian changes the direction of motion and turns left maintaining constant speed. (b) In the second row, the leader-follower map exerts a strong influence on the final decision-making causing the model to choose the anchor corresponding to slowing-down. (c) In the third row, the leader-follower map is not strong in intensity and the neural network map guides decision making resulting in the model maintaining constant speed.
                                   </td>
                     </tr>
                 </table>
@@ -290,7 +309,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
             <td><a href=""><img align=center style="width:400px" src="paper_collage.png"/></a></td>
             <td><span style="font-size:14pt">P. Kothari, B. Sifringer, A. Alahi. <br><br>
               Interpretable Social Anchors for Human Trajectory Forecasting in Crowds<br><br>
-            ECCV 2020  <a href = "http://cvpr2021.thecvf.com"> <b> (Poster) </b> </a><br><br>
+            CVPR 2021  <a href = "http://cvpr2021.thecvf.com"> <b> (Poster) </b> </a><br><br>
                 <a href="">[Paper]</a> &nbsp; &nbsp;
                 <a href="">[Bibtex]</a> &nbsp; &nbsp;
                 <a href="">[Github]</a> 
@@ -314,7 +333,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
                     <td>
                       <left>
                 <center><h1>Acknowledgements</h1></center>
-                We thank <span style="font-size:14px"><a href="http://www.niebles.net/">Prof. Juan Carlos Niebles</a></span> for helpful advice and suggestions. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+                This work was supported by the Swiss National Science Foundation under the Grant 2OOO21-L92326, EPFL Open Science fund, and Honda R&D Co., Ltd. We also thank VITA members and reviewers for their valuable comments. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
             </left>
         </td>
         </tr>
