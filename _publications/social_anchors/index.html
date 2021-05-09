@@ -112,7 +112,7 @@
 
 <html>
   <head>
-        <title>It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction</title>
+        <title>Interpretable Social Anchors for Human Trajectory Forecasting in Crowds</title>
         <meta property="og:title" content="sceneflow" />
         <!-- <meta property="og:url" content="https://www.youtube.com/watch?v=cYHQKtBLI3Q" /> -->
   </head>
@@ -130,34 +130,18 @@
       <table align=center width=800px>
 
      <tr>
-       <span style="font-size:22px"><a href="https://karttikeya.github.io/">Karttikeya Mangalam</a></span><sup>1</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/harshayu-girase-764b06153">Harshayu Girase</a></span><sup>1</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/shreyas-agarwal-086267146">Shreyas Agarwal</a></span><sup>1</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/kuan-hui-lee-23730370">Kuan-Hui Lee</a></span><sup>2</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://web.stanford.edu/~eadeli/">Ehsan Adeli</a></span><sup>3</sup><br>
-      <span style="font-size:22px"><a href="https://people.eecs.berkeley.edu/~malik/">Prof. Jitendra Malik</a></span><sup>1</sup>, &nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/adrien-gaidon-63ab2358/">Adrien Gaidon</a></span><sup>2</sup>
+       <span style="font-size:22px"><a href="https://thedebugger811.github.io/">Parth Kothari</a></span><sup>1</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px">Brian Sifringer</span><sup>1</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px">Alexandre Alahi</span><sup>1</sup>,&nbsp;&nbsp;
    </tr>
 
 
      <tr>
        <td align=center colspan="2" style="font-size:22px">
        <center>
-       <sup>1</sup>UC Berkeley
+       <sup>1</sup>VITA Lab, EPFL
        </center>
        </td>
-
-      <td align=center colspan="2" style="font-size:22px">
-      <center>
-      <sup>2</sup>Toyota Research Institute
-      </center>
-      </td>
-
-      <td align=center colspan="2" style="font-size:22px">
-      <center>
-      <sup>3</sup>Stanford University
-      </center>
-      </td>
       </tr>
     </table>
 
@@ -166,7 +150,7 @@
        <tr>
         <td align=center width=100px>
         <center>
-        <span style="font-size:28px">ECCV 2020 <span style="color:red">(Oral)</span></span>
+        <span style="font-size:28px">CVPR 2021 <span style="color:red">(Poster)</span></span>
         </center>
         </td>
      </tr>
@@ -175,11 +159,9 @@
           <tr>
                 <br><br>
                  <span style="font-size:28px">
-                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href="bibtex.txt">[Bibtex]</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href="https://www.youtube.com/watch?v=XCWCHwGlBgE">[Short Talk]</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="https://www.youtube.com/watch?v=cJt1lo3s08o">[Long Talk]</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                 <a href="https://github.com/HarshayuGirase/PECNet">[Github]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="">[Bibtex]</a> &nbsp; &nbsp; &nbsp; &nbsp;  
+                 <a href="">[Github]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
               </span>
               <br>
@@ -233,12 +215,8 @@
                         <img src = "teaser.jpg" height="500px"></img><br>
                   </center> -->
                   <br>
-                  <span style="font-size:20px"> Human trajectory forecasting with multiple socially interacting agents is of critical importance for autonomous navigation in human
-environments, e.g., for self-driving cars and social robots. In this work, we
-present Predicted Endpoint Conditioned Network (PECNet) for flexible
-human trajectory prediction. PECNet infers distant trajectory endpoints
-to assist in long-range multi-modal trajectory prediction. A novel nonlocal social pooling layer enables PECNet to infer diverse yet socially compliant trajectories. Additionally, we present a simple “truncation trick” for improving few-shot multi-modal trajectory prediction performance. We show that PECNet improves state-of-the-art performance on the Stanford Drone prediction benchmark by ∼20.9% & on the ETH/UCY benchmark by ∼40.8%.
-                  </td>
+                  <span style="font-size:20px"> Human trajectory forecasting in crowds, at its core, is a sequence prediction problem with specific challenges of capturing inter-sequence dependencies (social interactions) and consequently predicting socially-compliant multimodal distributions. In recent years, neural network-based methods have been shown to outperform hand-crafted methods on distance-based metrics. However, these data-driven methods still suffer from one crucial limitation: lack of interpretability. To overcome this limitation, we leverage the power of discrete choice models to learn interpretable rule-based intents, and subsequently utilise the expressibility of neural networks to model scene-specific residual. Extensive experimentation on the interaction-centric benchmark TrajNet++ demonstrates the effectiveness of our proposed architecture to explain its predictions without compromising the accuracy.
+                      </td>
               </tr>
 
               <tr>
@@ -255,11 +233,10 @@ to assist in long-range multi-modal trajectory prediction. A novel nonlocal soci
               <tr>
                   <td width=700px>
                     <center>
-                        <img src = "teaser.JPG" height="500px"></img><br>
+                        <img src = "pull1.pdf" height="500px"></img><br>
                   </center>
                   <br>
-                  <span style="font-size:18px"> <b>Imitating the Human Path Planning Process</b>: We posit that pedestrians in the scene move towards a predetermined position and interactions such as social signalling shape their trajectories only locally while they still go along achieving their original intention. Instantiating this idea, we propose 
-                  to model the pedestrian trajectory prediction problem (top left) by breaking down the task in two sequential steps that are learned end to end. (a) Inferring the local endpoint distribution (top right) for diverse endpoint sampling for each agent independently; and then (b) Conditioning on sampled future endpoints (bottom left) for planning socially compliant trajectories for all the agents in the scene jointly (bottom right).
+                  <span style="font-size:18px"> While navigating in crowds, humans display various social phenomena like collision avoidance (from red trajectory) and leader follower (towards blue trajectory). We present a model that not only outputs accurate future trajectories but also provides a high-level rationale behind its predictions, owing to the interpretability of discrete choice models. (Un)favourable anchors shown in green (red).
                   </td>
               </tr>
 <!-- 
@@ -275,12 +252,12 @@ We posit that pedestrians in the scene move towards a predetermined position and
 
         <hr>
          <!-- <table align=center width=550px> -->
-                <center><h1>Multimodal Results</h1></center>
+                <center><h1>Results</h1></center>
                 <table align=center width=900px>
                     <tr>
                         <td width=1200px colspan="3">
                           <center>
-                              <img src = "multimodal.png" height="540px"></img><br>
+                              <img src = "viz_combined4.png" height="540px"></img><br>
                         </center>
                         </td>
                     </tr>
@@ -299,68 +276,24 @@ We posit that pedestrians in the scene move towards a predetermined position and
                     <tr>
                         <td width=600px colspan="3">
                                             <br>
-                              <span style="font-size:18px"><b> Visualizing Multimodality Predictions:</b> Qualitative results for diverse multi-modal predictions produced by PECNet on the <a href="https://cvgl.stanford.edu/projects/uav_data/"> Stanford Drone Dataset</a>. White represents the past 3.2 seconds trajectory (8 frames) while  red  &  cyan  represents  predicted  &  ground  truth  future  respectively  over  next 4.8 seconds (12 frames). As demonstrated, PECNet predictions capture a wide-range of plausible trajectory behaviours while discarding improbable ones such as endpoints incompatible with the direction of motion. 
-                        </td>
+                              <span style="font-size:18px"> Qualitative illustration of the ability of our architecture to output high-level interpretable intents. The direction of motion of the pedestrian of interest is normalized and is facing towards the right. Current neighbour positions are shown in blue and current velocities are shown in green. The ground-truth choice is highlighted in light green. (a) In the first row, the decision of the network is strongly influenced by the collision-avoidance and occupancy map of the DCM.  Consequently, the pedestrian changes the direction of motion and turns left maintaining constant speed. (b) In the second row, the leader-follower map exerts a strong influence on the final decision-making causing the model to choose the anchor corresponding to slowing-down. (c) In the third row, the leader-follower map is not strong in intensity and the neural network map guides the decision making resulting in the model maintaining constant speed.
+                                  </td>
                     </tr>
                 </table>
                 <br>
-      <hr>
-      <table align=center width=800>
-       <center><h1>Socially Compliant Diverse Predictions</h1></center>
-          <tr class="spaceUnder">
-            <td>
-              <img style="width:280px" src="gt2.gif"/>
-            </td>
-            <td>
-              <img style="width:280px" src="pred2.gif"/>
-            </td>
-            <td>
-            <img style="width:280px" src="viz2.gif"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <img style="width:280px" src="gt3.gif"/>
-          </td>
-          <td>
-            <img style="width:280px" src="pred3.gif"/>
-          </td>
-          <td>
-            <img style="width:280px" src="viz3.gif"/>
-          </td>
-      </tr>
-
-        <tr>
-          <td align=center><br>
-            <span style="font-size:24px">&nbsp;<a href='#'>Ground Truth</a>
-          </td>
-          <td align=center><br>
-            <span style="font-size:24px">&nbsp;<a href='#'>Final Predictions</a>
-          </td>
-          <td align=center><br>
-            <span style="font-size:24px">&nbsp;<a href='#'>Multimodal Predictions</a>
-          </td>
-        <tr>
-        <tr>
-          <td colspan="3"> <br>
-            <span style="font-size:18px"><b> Qualitative Results at Mergers & Intersection:</b> We demonstrate PECNet's socially compliant & diverse trajectories in multi-agent settings in tricky scenarios such as path merger (top row) or collision avoidance at lane intersections (bottom row). The left column denotes the ground truth trajectories from Stanford Drone Dataset and the middle and left columns denote our predictions. For ground truth/final predictions, circles denote the past input fed into PECNet, while stars denote the future to be predicted/predicted with tails denoting the last four observed positions for both. Our "best" predictions follow the ground truth closely while effectively avoid collisions with other pedestrians in a natural seamless way. While PECNet's multimodal predictions produces diverse socially compliant trajectories jointly for all the pedestrians in the scene (extended temporally for visualization using recurrent prediction). For quantitative results please see <a href="https://arxiv.org/pdf/2004.02025.pdf">our paper</a>.  
-          </td>
-        </tr>
-      </table>
-    <br>
+      
 
     <hr>
       <table align=center width=900>
        <center><h1>Paper</h1></center>
           <tr>
             <td><a href="https://arxiv.org/pdf/2004.02025.pdf"><img align=center style="width:400px" src="paper_collage.png"/></a></td>
-            <td><span style="font-size:14pt">Mangalam, Girase, Agarwal, Lee, <br> Adeli, Malik, Gaidon.<br><br>
-              It Is Not the Journey but the Destination: Endpoint Conditioned Trajectory Prediction<br><br>
-            ECCV 2020  <a href = "https://eccv2020.eu/"> <b> (Oral) </b> </a><br><br>
-                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp;
-                <a href="bibtex.txt">[Bibtex]</a> &nbsp; &nbsp;
-                <a href="https://github.com/HarshayuGirase/PECNet">[Github]</a> 
+            <td><span style="font-size:14pt">P. Kothari, B. Sifringer, A. Alahi. <br><br>
+              Interpretable Social Anchors for Human Trajectory Forecasting in Crowds<br><br>
+            ECCV 2020  <a href = "http://cvpr2021.thecvf.com"> <b> (Poster) </b> </a><br><br>
+                <a href="">[Paper]</a> &nbsp; &nbsp;
+                <a href="">[Bibtex]</a> &nbsp; &nbsp;
+                <a href="">[Github]</a> 
             <!-- [hosted on <a href="#">arXiv</a>]</a> -->
               </td>
         </tr>
