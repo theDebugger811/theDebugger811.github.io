@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[2 Page CV](http://theDebugger811.github.io/files/ParthKothari_2PageCV.pdf)
+Find my [CV](http://theDebugger811.github.io/files/CVOct2021.pdf) here!
