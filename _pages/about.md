@@ -21,6 +21,8 @@ Currently, I am pursuing a research internship at Level 5, Woven Planet (previou
 <col width="100px">
 <col width="650px">
 
+<tr><td><b>Sep 2021:</b></td><td> new paper introducing an open-source gym-compatible environment for autonomous driving accepted to <a href="https://ml4ad.github.io/">ML4AD</a> Workshop at NeurIPS 2021. More details soon! </td></tr>
+
 <tr><td><b>Sep 2021:</b></td><td> new paper on test-time adaptation accepted to NeurIPS 2021. More details soon! </td></tr>
 
 <tr><td><b>Jun 2021:</b></td><td> started research internship at Level 5 Woven Planet (previously Lyft). </td></tr>
