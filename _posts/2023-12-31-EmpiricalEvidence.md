@@ -9,3 +9,5 @@ permalink: /posts/2023/12/empirical_evidence/
 'I haven't seen any empirical evidence.'
 
 'Lets verify it then.'
+
+[Google Sheet](https://docs.google.com/spreadsheets/d/13oA2G1ytE0PrlelrBYbThullfPLUK75wBBxjHNt3qv0/edit?usp=sharing)
