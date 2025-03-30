@@ -8,6 +8,8 @@ tags:
   - social intelligence
 ---
 
+*Note: TrajNet++ is no longer actively maintained.*
+
 In this blog post, I provide a kickstarter guide to our recently released TrajNet++ framework for human trajectory forecasting. We recently released TrajNet++ Challenge for agent-agent based trajectory forecasting. Details regarding the challenge can be found [here](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge). This post will focus on utilizing the TrajNet++ framework for easily creating datasets and learning human motion forecasting models.
 
 Overview

@@ -8,6 +8,8 @@ tags:
   - social intelligence
 ---
 
+*Note: TrajNet++ is no longer actively maintained.*
+
 In this blog post, I provide a quick tutorial to converting external datasets into the desired [.ndjson](http://ndjson.org/) format using the TrajNet++ framework. This post will focus on utilizing the TrajNet++ dataset code for easily converting new datasets.
 
 <!-- Overview
