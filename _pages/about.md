@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Parth Kothari, a person travelling through the various experience of life, hand-in-hand with my [cutie wife](https://dhruti96shah.github.io). Currently, I am working at Google, Zurich in the [Graph Neural Networks](https://github.com/tensorflow/gnn) team. Before joining Google, I did a PhD at the Visual Intelligence for Transport ([VITA](https://www.epfl.ch/labs/vita/)) lab at [EPFL](https://www.epfl.ch/en/), under the supervision of Prof. Alexandre Alahi. During my PhD, I researched broadly in the field of understanding human motion behavior, with focus on social forecasting in autonomous vehicles. I got my undergraduate degree in Electrical Engineering from ([IIT Bombay](http://www.iitb.ac.in)).
+I am Parth Kothari, a person travelling through the various experience of life, hand-in-hand with my [cutie wife](https://dhruti96shah.github.io). Currently, I am working at Google, Zurich in the LLM Agents space. Before joining Google, I did a PhD at the Visual Intelligence for Transport ([VITA](https://www.epfl.ch/labs/vita/)) lab at [EPFL](https://www.epfl.ch/en/), under the supervision of [Prof. Alexandre Alahi](https://scholar.google.com/citations?user=UIhXQ64AAAAJ&hl=en). During my PhD, I researched broadly in the field of understanding human motion behavior, with focus on social forecasting in autonomous vehicles. I got my undergraduate degree in Electrical Engineering from ([IIT Bombay](http://www.iitb.ac.in)).
 
 
 ## Updates
