@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Find my [CV](http://theDebugger811.github.io/files/CVOct2021.pdf) here!
+Find my [CV](http://theDebugger811.github.io/files/Parth_CV_2025.pdf) here!
