@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am Parth Kothari, a person travelling through the various experience of life, hand-in-hand with my [cutie wife](https://dhruti96shah.github.io). Currently, I am working at Google, Zurich in the LLM Agents space. Before joining Google, I did a PhD at the Visual Intelligence for Transport ([VITA](https://www.epfl.ch/labs/vita/)) lab at [EPFL](https://www.epfl.ch/en/), under the supervision of [Prof. Alexandre Alahi](https://scholar.google.com/citations?user=UIhXQ64AAAAJ&hl=en). During my PhD, I researched broadly in the field of understanding human motion behavior, with focus on social forecasting in autonomous vehicles. I got my undergraduate degree in Electrical Engineering from ([IIT Bombay](http://www.iitb.ac.in)).
+I am Parth Kothari, a person travelling through the various experience of life, hand-in-hand with my [cutie wife](https://dhruti96shah.github.io). 
+
+On the professional front, I work in Google Zurich in the CoreML Frontiers team. Our team is at the intersection of research and productionization, wherein we take inspiration from the latest developments in the LLM Agents research and consequently build infrastructure to support the integration of agents into various products. As part of this setup, I actively contribute to several open-source core initiatives, including Cloud’s Agent Development Kit (ADK), DeepMind’s OneTwo framework, and the GenAI processors library.
+
+Thanks to my team's unique positioning between research and product, I enjoy consulting internal product teams to guide them on effectively incorporating LLM agents into their workflows.
+
+My work at Google builds on a deep learning background shaped by a PhD at the Visual Intelligence for Transport ([VITA](https://www.epfl.ch/labs/vita/)) lab at [EPFL](https://www.epfl.ch/en/), under the supervision of [Prof. Alexandre Alahi](https://scholar.google.com/citations?user=UIhXQ64AAAAJ&hl=en) in socially aware motion forecasting for autonomous vehicles. I got my undergraduate degree in Electrical Engineering from ([IIT Bombay](http://www.iitb.ac.in)).
 
 
 ## Updates
